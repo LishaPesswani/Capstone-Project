@@ -22,11 +22,10 @@ Split the dataset into training and testing sets.
 
 ## Model Selection:
 Train various classification models:
-Logistic Regression
-Decision Trees
-Random Forests
+Logistic Regression,
+Decision Trees,
+Random Forests,
 Gradient Boosting
-Neural Networks (MLPClassifier)
 
 ## Model Evaluation:
 Evaluate the models on the testing set using metrics like precision, recall, F1 score, and AUC-ROC.
