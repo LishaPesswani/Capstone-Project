@@ -5,8 +5,9 @@
 This project aims to leverage a variety of classification algorithms to build an effective fraud detection system, considering both traditional and advanced machine learning techniques. The focus on feature engineering, data preprocessing, and thorough model evaluation will contribute to the development of a robust and accurate fraud detection model.
 
 ## Data Loading and Exploration:
-1) Load the dataset using a tool like pandas.
-2) Explore the dataset to understand its structure, and summary statistics, and identify potential challenges such as missing values or outliers.
+1) Perform an initial exploration of the dataset to understand its structure and characteristics.
+2) Identify missing values, outliers, and any potential data quality issues.
+3) Visualize the distribution of features and the class balance.
 
 ## Data Preprocessing:
 1) Normalize numerical features.
@@ -20,8 +21,12 @@ This project aims to leverage a variety of classification algorithms to build an
 Split the dataset into training and testing sets.
 
 ## Model Selection:
-Choose classification algorithms for your problem. You mentioned logistic regression, decision trees, random forests, gradient boosting, and neural networks.
-Train these models on the training set.
+Train various classification models:
+Logistic Regression
+Decision Trees
+Random Forests
+Gradient Boosting
+Neural Networks (MLPClassifier)
 
 ## Model Evaluation:
 Evaluate the models on the testing set using metrics like precision, recall, F1 score, and AUC-ROC.
